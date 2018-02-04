@@ -3,7 +3,7 @@ Simple React project to search and view Youtube's videos using the [Youtube Data
 
 ## Getting Started
 
-These instructions will give you a local copy on your machine which you can then run and use. These steps assumes you have npm installed already. If you do, here is the [installation guide](https://docs.npmjs.com/getting-started/installing-node) to get started.
+These instructions will give you a local copy on your machine which you can then run and use. These steps assumes you have npm installed already. If you don't, here is the [installation guide](https://docs.npmjs.com/getting-started/installing-node) to get started.
 
 ```
 git clone https://github.com/mariesta/YoutubeSearch.git
@@ -13,7 +13,7 @@ npm run dev
 
 Look for the line 'Project is running at [localhost url]'. If you navigate to this url, you should see this.
 
-<img src="images/youtubeSearch-initalPage.png" width="250">
+<img src="images/youtubeSearch-initalPage.png" width="550">
 
 You can then search and view videos as much as you want. Enjoy!
 
