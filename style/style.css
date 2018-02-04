@@ -1,10 +1,33 @@
 .search-bar {
-	margin: 20px;
 	text-align: center;
 }
 
-.search-bar input {
-	width: 75%
+.search {
+	margin: 20px;
+	width: 450px;
+	text-align: center;
+	display: inline-block;
+    position: relative;
+    font-size: 16px;
+}
+
+.search input {
+    width: 450px;
+    height: 32px;
+
+    background: #fcfcfc;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+
+    text-indent: 32px;
+}
+
+.search .fa-search { 
+    position: absolute;
+    color: #aaa;
+    top: 10px;
+    left: 10px;
 }
 
 .video-item img {
@@ -14,12 +37,32 @@
 .video-detail .details {
 	margin-top: 10px;
 	padding: 10px;
-	border: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
 	border-radius: 4px;
+}
+
+.video-detail .details .title{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.video-detail .details .description{
+	font-family: 'Roboto', sans-serif;
+	color: rgba(17, 17, 17, 0.6);
+	font-size: 14px;
+	font-weight: 400;
 }
 
 .list-group-item {
 	cursor: pointer;
+	border: none;
+}
+
+.video-list {
+	padding: 5px 5px 10px 5px;
+	border-bottom: 1px solid #ddd;
 }
 
 .list-group-item:hover {
